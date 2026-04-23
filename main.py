@@ -20,3 +20,8 @@ that spans multiple lines."""
 
 # variables
 # Python is dynamically typed, so you don't need to declare variable types, x = 5
+
+# Data types
+# int= 12, float=3.14, str="Hello", bool=True, list=[1, 2, 3], tuple=(1, 2, 3), dict={"a": 1}, set={1, 2, 3}
+
+
