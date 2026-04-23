@@ -11,3 +11,8 @@ print("Subtraction:", sub)
 print("Multiplication:", mul)
 print("Division:", div)
 
+
+# Comments
+# This is a single-line comment
+"""This is a multi-line comment
+that spans multiple lines."""
