@@ -59,6 +59,7 @@ print("Range:", *my_range) #Unpacking the range to display individual numbers
 
 # maya++ language name
 
+
 # Data types checking
 print("Type of a:", type(a))
 print("Type of b:", type(b))
@@ -70,3 +71,5 @@ print("Type of complex_num:", type(complex_num))
 print("Type of my_tuple:", type(my_tuple))
 print("Type of my_dict:", type(my_dict))
 print("Type of my_set:", type(my_set))
+print("Type of my_range:", type(my_range))
+print("Type of my_range (as list):", type(list(my_range)))
