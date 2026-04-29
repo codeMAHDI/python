@@ -55,7 +55,7 @@ print("Range:", list(my_range)) #Converting range to a list for display
 my_range = range(5) #Range from 0 to 4
 print("Range:", list(my_range))
 my_range = range(1, 10) #Range from 1 to 9
-print("Range:", *my_range) # Unpacking the range to display individual numbers
+print("Range:", *my_range) #Unpacking the range to display individual numbers
 
 # maya++ language name
 
@@ -73,3 +73,25 @@ print("Type of my_dict:", type(my_dict))
 print("Type of my_set:", type(my_set))
 print("Type of my_range:", type(my_range))
 print("Type of my_range (as list):", type(list(my_range)))
+
+
+# Immutable vs Mutable data types
+# Immutable data types: int, float, str, tuple, frozenset
+# Mutable data types: list, dict, set
+
+# Example of immutability
+x = 10
+print("Original x:", x)
+first_id = id(x) # Get the memory address of the original integer object
+print("Memory address of original x:", first_id)
+x = 20 # This creates a new integer object and assigns it to x, the original integer (10) remains unchanged
+second_id = id(x) # Get the memory address of the new integer object
+print("Memory address of updated x:", second_id)
+print("Updated x:", x)
+
+# Example of mutability
+my_list = [1, 2, 3]
+print("Original list:", my_list)
+my_list.append(4) # This modifies the original list object
+print("Updated list:", my_list)
+
