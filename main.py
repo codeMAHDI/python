@@ -95,3 +95,11 @@ print("Original list:", my_list)
 my_list.append(4) # This modifies the original list object
 print("Updated list:", my_list)
 
+list1 = [1, 2, 3]
+first_id= id(list1) # Get the memory address of the original list object
+print("Memory address of original list:", first_id)
+list1[0]= 12
+second_id= id(list1) # Get the memory address of the modified list object
+print("Memory address of modified list:", second_id)
+
+
