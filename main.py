@@ -102,4 +102,17 @@ list1[0]= 12
 second_id= id(list1) # Get the memory address of the modified list object
 print("Memory address of modified list:", second_id)
 
+# Type conversion
+# Example of type conversion. Explicit and implicit type conversion
+# Explicit type conversion (casting)=> int(), float(), str(), list(), tuple(), dict(), set() 
+# Implicit type conversion (coercion)=> happens automatically when performing operations between different data types, e.g., 5 + 3.14 results in 8.14 (int is converted to float)
+# Explicit type conversion
+x=10
+y=float(x) # Converting integer to float
+print("Explicit type conversion (casting):", y)
 
+#Implicit type conversion
+a=5
+b=3.14
+c=a+b # int is automatically converted to float
+print("Implicit type conversion (coercion):", c)
