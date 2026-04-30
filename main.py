@@ -112,7 +112,9 @@ y=float(x) # Converting integer to float
 print("Explicit type conversion (casting):", y)
 
 #Implicit type conversion
-a=5
-b=3.14
-c=a+b # int is automatically converted to float
+a= 5
+b= 3.14
+c= a+b # int is automatically converted to float
 print("Implicit type conversion (coercion):", c)
+
+
