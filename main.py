@@ -57,7 +57,6 @@ print("Range:", list(my_range))
 my_range = range(1, 10) #Range from 1 to 9
 print("Range:", *my_range) #Unpacking the range to display individual numbers
 
-# maya++ language name
 
 
 # Data types checking
