@@ -108,7 +108,7 @@ print("Memory address of modified list:", second_id)
 # Implicit type conversion (coercion)=> happens automatically when performing operations between different data types, e.g., 5 + 3.14 results in 8.14 (int is converted to float)
 # Explicit type conversion
 x=10.00
-y=int(x) # Converting integer to float
+y=int(x) # Converting integer to int
 print("Explicit type conversion (casting):", y)
 
 # Implicit type conversion
