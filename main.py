@@ -115,5 +115,3 @@ a= 5
 b= 3.14
 c= a+b # Int is automatically converted to float
 print("Implicit type conversion (coercion):", c)
-
-
