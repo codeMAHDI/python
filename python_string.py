@@ -1,5 +1,7 @@
 # Single Qoute Single qoute is used to define a string in Python. It is a common way to create string literals. Here are some examples of how to use single quotes to define strings:
 # single('') double("") and triple quotes (''' ''') or (""" """) are all used to define strings in Python. Each type of quote has its own advantages and use cases. Single quotes are often used when you want to include double quotes within the string without needing to escape them, while double quotes are useful when you want to include single quotes. Triple quotes are typically used for multi-line strings or docstrings.
+
+
 # Example 1: Using single quotes to define a string(For short strings without special characters)
 string1 = 'Hello, World!'
 print(string1)  # Output: Hello, World!
