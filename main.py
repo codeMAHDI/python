@@ -1,6 +1,3 @@
-
-
-
 a= 10
 b=10
 
@@ -77,6 +74,8 @@ print("Type of my_range:", type(my_range))
 print("Type of my_range (as list):", type(list(my_range)))
 
 
+
+
 # Immutable vs Mutable data types
 # Immutable data types: int, float, str, tuple, frozenset
 # Mutable data types: list, dict, set
@@ -130,6 +129,3 @@ try:
 
 except Exception as e:
     print("Error during type conversion:", e)
-
-
-
